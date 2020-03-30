@@ -11,6 +11,7 @@ int main(void) {
 if (!glfwInit()) { exit(EXIT_FAILURE); }
 
 // Use the highest OpenGL version supported by OS
+// https://stackoverflow.com/questions/19865463/opengl-4-1-under-mavericks
 glfwWindowHint(GLFW_OPENGL_FORWARD_COMPAT, GL_TRUE);
 glfwWindowHint(GLFW_OPENGL_PROFILE, GLFW_OPENGL_CORE_PROFILE);
 glfwWindowHint(GLFW_CONTEXT_VERSION_MAJOR, 4);
